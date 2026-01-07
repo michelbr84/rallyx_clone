@@ -2,6 +2,8 @@
 
 Um clone do clássico jogo arcade Rally-X desenvolvido com Python e Pygame.
 
+![Rally-X](src/rallyx_clone/assets/images/game.png)
+
 ## 📋 Sobre o Jogo
 
 Rally-X Clone é um jogo de ação/arcade onde você controla um carro que deve:
