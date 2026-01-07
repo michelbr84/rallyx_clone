@@ -1,0 +1,51 @@
+{
+    "sounds": {
+        "crash": {
+            "file": "crash.mp3",
+            "type": "sfx",
+            "volume": 1.0
+        },
+        "engine_loop": {
+            "file": "engine_loop.mp3",
+            "type": "sfx",
+            "volume": 0.5,
+            "loop": true
+        },
+        "lose": {
+            "file": "lose.mp3",
+            "type": "sfx",
+            "volume": 1.0
+        },
+        "pickup_flag": {
+            "file": "pickup_flag.mp3",
+            "type": "sfx",
+            "volume": 1.0
+        },
+        "smoke": {
+            "file": "smoke.mp3",
+            "type": "sfx",
+            "volume": 0.8
+        },
+        "ui_move": {
+            "file": "ui_move.mp3",
+            "type": "sfx",
+            "volume": 0.6
+        },
+        "ui_select": {
+            "file": "ui_select.mp3",
+            "type": "sfx",
+            "volume": 0.8
+        },
+        "win": {
+            "file": "win.mp3",
+            "type": "sfx",
+            "volume": 1.0
+        }
+    },
+    "music": {
+        "main_loop": {
+            "file": "music_loop.mp3",
+            "volume": 0.7
+        }
+    }
+}

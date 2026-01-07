@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rallyx-clone"
+version = "1.0.0"
+description = "Rally-X Clone - Jogo arcade estilo labirinto com Python e Pygame"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "Rally-X Clone Team"}
+]
+keywords = ["game", "pygame", "arcade", "rally-x"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Games/Entertainment :: Arcade",
+]
+dependencies = [
+    "pygame>=2.5.0",
+]
+
+[project.scripts]
+rallyx-clone = "rallyx_clone.app:main"
+
+[project.urls]
+Homepage = "https://github.com/rallyx-clone/rallyx-clone"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"rallyx_clone.assets" = ["**/*"]

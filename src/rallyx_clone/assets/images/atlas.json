@@ -1,0 +1,71 @@
+{
+    "sprites": {
+        "player_car": {
+            "file": "player_car.png",
+            "size": [
+                28,
+                28
+            ]
+        },
+        "enemy_car": {
+            "file": "enemy_car.png",
+            "size": [
+                28,
+                28
+            ]
+        },
+        "flag": {
+            "file": "flag.png",
+            "size": [
+                24,
+                24
+            ]
+        },
+        "smoke": {
+            "file": "smoke.png",
+            "size": [
+                96,
+                96
+            ]
+        },
+        "icon_life": {
+            "file": "icon_life.png",
+            "size": [
+                24,
+                24
+            ]
+        },
+        "title": {
+            "file": "title.png",
+            "size": [
+                400,
+                200
+            ]
+        },
+        "ui_panel": {
+            "file": "ui_panel.png",
+            "size": [
+                200,
+                100
+            ]
+        }
+    },
+    "tiles": {
+        "road": {
+            "file": "tile_road.png",
+            "id": 0
+        },
+        "wall": {
+            "file": "tile_wall.png",
+            "id": 1
+        },
+        "grass": {
+            "file": "tile_grass.png",
+            "id": 2
+        },
+        "border": {
+            "file": "tile_border.png",
+            "id": 3
+        }
+    }
+}
